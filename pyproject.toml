@@ -1,0 +1,17 @@
+[tool.poetry]
+authors = ["licosp <***@gmail.com>"]
+description = "TOR modding project"
+name = "pytromproj"
+packages = [{include = "pytromproj", from = "src"}]
+readme = "README.md"
+version = "0.0.1"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
